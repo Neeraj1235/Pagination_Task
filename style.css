@@ -1,0 +1,34 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 70vh;
+    background-color: yellowgreen;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid red;
+    border-collapse: collapse;
+  }
+  td {
+    padding: 5px;
+    text-align: left;
+    width: 300px;
+    background-color: azure;
+  }
+  th,
+  tr:nth-child(even) {
+    background-color: aqua;
+  }
+  
+  tr > td:nth-child(1) {
+    width: 30px;
+    text-align: center;
+    background-color: azure;
+  }
+  
+  tr > td:nth-child(2) {
+    width: 150px;
+    background-color: azure;
+  }
+
